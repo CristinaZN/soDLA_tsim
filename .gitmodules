@@ -1,3 +1,6 @@
 [submodule ".\\hardware\\chisel\\soDLA"]
 	path = .\\hardware\\chisel\\soDLA
 	url = https://github.com/soDLA-publishment/soDLA.git
+[submodule "hardware/chisel/soDLA"]
+	path = hardware/chisel/soDLA
+	url = https://github.com/soDLA-publishment/soDLA
