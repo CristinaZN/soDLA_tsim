@@ -25,29 +25,29 @@ In this repository, you will find:
 
 # Building TVM on Linux 
   Clone the TVM
-  $ git clone --recursive https://github.com/apache/incubator-tvm tvm 
+    $ git clone --recursive https://github.com/apache/incubator-tvm tvm 
   
   Build the Shared Libaray
-  $ sudo apt-get update
-  $ sudo apt-get install -y python3 python3-dev python3-setuptools gcc libtinfo-dev zlib1g-dev build-essential cmake libedit-dev libxml2-dev
+    $ sudo apt-get update
+    $ sudo apt-get install -y python3 python3-dev python3-setuptools gcc libtinfo-dev zlib1g-dev build-essential cmake libedit-dev libxml2-dev
 See the [TVM Online Documentation] for more information.
 
   Use cmake to build the library.
-  $ cd tvm
-  $ mkdir build
-  $ cp cmake/config.cmake build
-  $ cd build
-  $ cmake ..
-  $ make -j4
+    $ cd tvm
+    $ mkdir build
+    $ cp cmake/config.cmake build
+    $ cd build
+    $ cmake ..
+    $ make -j4
 
 # Building TVM on Windows
   TVM support build via MSVC using cmake. The minimum required VS version is Visual Studio Community 2015 Update 3. In order to generate the VS solution file using cmake, make sure you have a recent version of cmake added to your path.
 
   Clone the TVM
-  $ git clone --recursive https://github.com/apache/incubator-tvm tvm 
+    $ git clone --recursive https://github.com/apache/incubator-tvm tvm 
 
-  $ cd tvm
-  $ mkdir build
-  $ cd build
-  $ cmake -G "Visual Studio 14 2015 Win64" -DCMAKE_BUILD_TYPE=Release -DCMAKE_CONFIGURATION_TYPES="Release" ..
+    $ cd tvm
+    $ mkdir build
+    $ cd build
+    $ cmake -G "Visual Studio 14 2015 Win64" -DCMAKE_BUILD_TYPE=Release -DCMAKE_CONFIGURATION_TYPES="Release" ..
 
