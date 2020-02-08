@@ -38,6 +38,7 @@ In this repository, you will find:
 See the [TVM Online Documentation](https://docs.tvm.ai/) for more information.
 
   Use cmake to build the library.
+
     $ cd tvm
     $ mkdir build
     $ cp cmake/config.cmake build
