@@ -35,8 +35,6 @@ In this repository, you will find:
     $ sudo apt-get update
     $ sudo apt-get install -y python3 python3-dev python3-setuptools gcc libtinfo-dev zlib1g-dev build-essential cmake libedit-dev libxml2-dev
 
-See the [TVM Online Documentation](https://docs.tvm.ai/) for more information.
-
   Use cmake to build the library.
 
     $ cd tvm
@@ -45,6 +43,8 @@ See the [TVM Online Documentation](https://docs.tvm.ai/) for more information.
     $ cd build
     $ cmake ..
     $ make -j4
+
+See the [TVM Online Documentation](https://docs.tvm.ai/) for more information.
 
 ### Building TVM on Windows
   TVM support build via MSVC using cmake. The minimum required VS version is Visual Studio Community 2015 Update 3. In order to generate the VS solution file using cmake, make sure you have a recent version of cmake added to your path.
