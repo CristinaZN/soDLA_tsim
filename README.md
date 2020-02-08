@@ -6,7 +6,7 @@ Apache TVM (incubating) is a compiler stack for deep learning systems. It is des
 Learn more about TVM on the project web page.
 
 <https://github.com/apache/incubator-tvm>
-* [TVM Online Documentation](https://docs.tvm.ai/).
+[TVM Online Documentation](https://docs.tvm.ai/).
 
 ##Directory Structure
 
@@ -21,16 +21,20 @@ In this repository, you will find:
 
 ## Building the TVM
 
-  First, check the cmake in your system. If you do not have cmake, you can obtain the latest version from [official website] (https://cmake.org/download/)
+  First, check the cmake in your system. If you do not have cmake, you can obtain the latest version from 
+[official website] (https://cmake.org/download/)
 
 # Building TVM on Linux 
   Clone the TVM
+
     $ git clone --recursive https://github.com/apache/incubator-tvm tvm 
   
   Build the Shared Libaray
+
     $ sudo apt-get update
     $ sudo apt-get install -y python3 python3-dev python3-setuptools gcc libtinfo-dev zlib1g-dev build-essential cmake libedit-dev libxml2-dev
-See the [TVM Online Documentation] for more information.
+
+See the [TVM Online Documentation](https://docs.tvm.ai/) for more information.
 
   Use cmake to build the library.
     $ cd tvm
