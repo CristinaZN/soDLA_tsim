@@ -23,8 +23,7 @@ In this repository, you will find:
 
 ## Building the TVM
 
-  First, check the cmake in your system. If you do not have cmake, you can obtain the latest version from 
-[official website] (https://cmake.org/download/)
+  First, check the cmake in your system. If you do not have cmake, you can obtain the latest version from [official website](https://cmake.org/download/)
 
 ### Building TVM on Linux 
   Clone the TVM
@@ -50,8 +49,8 @@ See the [TVM Online Documentation](https://docs.tvm.ai/) for more information.
   TVM support build via MSVC using cmake. The minimum required VS version is Visual Studio Community 2015 Update 3. In order to generate the VS solution file using cmake, make sure you have a recent version of cmake added to your path.
 
   Clone the TVM
-    $ git clone --recursive https://github.com/apache/incubator-tvm tvm 
 
+    $ git clone --recursive https://github.com/apache/incubator-tvm tvm 
     $ cd tvm
     $ mkdir build
     $ cd build
