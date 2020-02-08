@@ -1,14 +1,16 @@
 # soDLA_tsim
  attach soDLA to tvm
 
-##tvm
+## tvm
+
 Apache TVM (incubating) is a compiler stack for deep learning systems. It is designed to close the gap between the productivity-focused deep learning frameworks, and the performance- and efficiency-focused hardware backends. TVM works with deep learning frameworks to provide end to end compilation to different backends.
 Learn more about TVM on the project web page.
 
 <https://github.com/apache/incubator-tvm>
+
 [TVM Online Documentation](https://docs.tvm.ai/).
 
-##Directory Structure
+## Directory Structure
 
 In this repository, you will find:
 
@@ -24,7 +26,7 @@ In this repository, you will find:
   First, check the cmake in your system. If you do not have cmake, you can obtain the latest version from 
 [official website] (https://cmake.org/download/)
 
-# Building TVM on Linux 
+### Building TVM on Linux 
   Clone the TVM
 
     $ git clone --recursive https://github.com/apache/incubator-tvm tvm 
@@ -44,7 +46,7 @@ See the [TVM Online Documentation](https://docs.tvm.ai/) for more information.
     $ cmake ..
     $ make -j4
 
-# Building TVM on Windows
+### Building TVM on Windows
   TVM support build via MSVC using cmake. The minimum required VS version is Visual Studio Community 2015 Update 3. In order to generate the VS solution file using cmake, make sure you have a recent version of cmake added to your path.
 
   Clone the TVM
